@@ -1,0 +1,30 @@
+/**
+ * Compact footer overrides
+ *
+ * @format
+ */
+
+#footer .footer-flex {
+	padding: 20px 30px !important;
+}
+#footer .footer-other {
+	padding: 12px 10px 6px !important;
+}
+#footer .footer_custom_text,
+#footer .copyright,
+#footer .framework-info {
+	line-height: 1.2;
+	font-size: 14px;
+}
+#footer .footer_custom_text .footer-left,
+#footer .footer_custom_text .footer-right {
+	gap: 8px;
+}
+@media (max-width: 768px) {
+	#footer .footer-flex {
+		padding: 16px 18px !important;
+	}
+	#footer .footer-other {
+		padding: 10px 8px !important;
+	}
+}
